@@ -1,48 +1,172 @@
-<img src="assets/symbol.svg" width="64" height="64" alt="SilexHub 标志" />
+<div align="center">
+  <a href="https://github.com/silexhub">
+    <img src="assets/symbol.svg" width="88" height="88" alt="SilexHub" />
+  </a>
+  <h1>SilexHub</h1>
+  <p><strong>给 AI Agent 提供工具、数据和软件连接。</strong></p>
+  <p>让 Agent 用上合适的能力，交付你能用的结果。</p>
+  <p>
+    <a href="https://silexhub.com">产品网站</a> ·
+    <a href="#能力方向">能力方向</a> ·
+    <a href="#从哪里开始">从这里开始</a> ·
+    <a href="https://github.com/silexhub/silexhub/issues">提出能力需求</a> ·
+    <a href="README.md">English</a>
+  </p>
+  <p>
+    <a href="#当前可用状态"><img src="https://img.shields.io/badge/Stage-In_development-E65B31?style=flat-square" alt="开发阶段" /></a>
+    <a href="README.md"><img src="https://img.shields.io/badge/Readme-English_%2F_中文-555?style=flat-square" alt="中英文介绍" /></a>
+  </p>
+</div>
 
-# SilexHub
+---
 
-**给 AI Agent 提供工具、数据和软件连接。**
+SilexHub 正在把人和 AI Agent 工作流中需要的实用能力放到同一个入口：**运行工具、使用数据、连接软件**。
 
-[English](README.md) · [GitHub 组织](https://github.com/silexhub) · [产品域名](https://silexhub.com)
+一个能做事的 Agent，除了模型，还需要合适的信息、执行动作的途径，以及能交给下一步的输出。SilexHub 关注的就是这些具体任务：输入是什么、做到哪里、最后交付什么，都应清楚。
 
-SilexHub 正在构建人和 AI Agent 可以用于实际工作流的外部能力：完成一项任务、获取结构化信息，或在授权后连接软件，让输入和结果清楚、可检查。
+这里是 **SilexHub 官方开发者入口**，集中发布产品介绍、可用状态和正式发布的接入资料。
 
-这里是 SilexHub 官方开发者入口，集中发布产品介绍，以及后续可用的接入文档和可运行示例。
+## 为什么做 SilexHub
 
-## 产品方向
+- **从任务出发。** 按要完成的工作找能力，先看能交付什么结果。
+- **输入输出清楚。** 使用前知道需要提供什么、得到什么格式，以及范围和限制。
+- **交付形式跟着任务走。** 文件、数据结果、工具调用和软件连接各有用途，选择适合下一步工作的形式。
+- **人控制范围。** 人选择能力、决定授权，Agent 在约定范围内使用。
 
-| 类别 | 用途 |
+这些是产品的设计原则。下面的可用状态单独列出今天已经公开的资料，以及仍在开发中的接入。
+
+## 能力方向
+
+<table>
+  <tr>
+    <th align="left">工具</th>
+    <th align="left">数据</th>
+    <th align="left">软件连接</th>
+  </tr>
+  <tr>
+    <td>把明确输入变成可用结果，例如转换、检查、比较或生成交付物。</td>
+    <td>为任务提供结构化信息、数据集和知识资产。</td>
+    <td>把经过授权的软件动作接入更大的工作流。</td>
+  </tr>
+  <tr>
+    <td><strong>看什么：</strong>任务与输出。</td>
+    <td><strong>看什么：</strong>来源、范围、格式与版本。</td>
+    <td><strong>看什么：</strong>权限、动作与结果。</td>
+  </tr>
+</table>
+
+按具体能力，交付物可能是文件、结构化结果、可复用工作流或软件接入。每项正式发布的能力会说明支持的格式和使用方式。
+
+## 可以用来做什么
+
+以下场景用于解释产品方向，**不代表已经上架的商品目录**。
+
+| 工作流 | 你提供的输入 | 你需要的结果 |
+| --- | --- | --- |
+| 给 Agent 准备信息 | 原始材料和目标结构 | 能交给下一步使用的结构化交付物 |
+| 检查和比较业务信息 | 记录、字段和比较规则 | 清晰的对照结果与待复核差异 |
+| 为任务补充领域知识 | 问题和明确的信息范围 | 带来源、版本说明的相关数据或知识 |
+| 把结果送进另一个工具 | 已授权的动作和必要字段 | 一次可检查结果的软件操作 |
+
+有具体任务？[告诉我们你的工作流](https://github.com/silexhub/silexhub/issues/new)：输入是什么、想得到什么、接在哪一步。明确的小任务，能帮助我们决定先做好哪项能力。
+
+## 一次使用如何衔接
+
+```mermaid
+flowchart LR
+    A[选择任务] --> B[确认输入与输出]
+    B --> C[授权使用范围]
+    C --> D[人或 Agent 使用能力]
+    D --> E[把结果交给下一步]
+```
+
+| 人的入口 | Agent 和开发者的入口 |
 | --- | --- |
-| 工具 | 使用明确的输入完成一项具体任务，取得可检查的结果。 |
-| 数据 | 获取有用的结构化信息和带版本的数据资产。 |
-| 软件连接 | 把经过授权的软件能力接入 Agent 工作流。 |
+| 了解能力、查看样例、选择使用权限、领取结果。 | 阅读能力约定、提供输入，通过正式支持的接入方式取得输出。 |
 
-以上是产品方向；每项正式发布的能力会单独说明可用状态、输入输出与使用方式。
+SilexHub 正围绕这条共同链路设计。每项能力的接入资料会说明访问方式、消耗规则和失败后的处理。
 
-## 当前状态
+## 当前可用状态
 
-**开发早期。** 当前仓库发布产品介绍，尚未发布可直接使用的公开 API、MCP 接入或生产服务。接入方式准备好后，会在主 README 中提供经过验证的入口和说明。
+| 内容 | 状态 |
+| --- | --- |
+| 产品介绍与中英文 README | 已在本仓库公开 |
+| 公开提问与能力需求 | [GitHub Issues](https://github.com/silexhub/silexhub/issues) |
+| 正式能力目录 | 尚未发布 |
+| 公开 API、MCP 端点、可安装 SDK | 尚未发布 |
+| 可运行的快速开始 | 随对应接入正式发布 |
 
-产品域名为 [silexhub.com](https://silexhub.com)。公开服务上线前，以本仓库作为产品信息与发布动态入口。
+**SilexHub 处于开发早期。** 产品域名为 [silexhub.com](https://silexhub.com)，公开服务的可用信息会在这里公布。当前仓库尚无可以直接复制使用的安装命令或 API 端点。
 
 ## 从哪里开始
 
-- 了解产品：阅读上面的定位与能力方向。
-- 关注进展：Watch 本仓库，查看后续公开接入与版本说明。
-- 提出使用场景：[创建 Issue](https://github.com/silexhub/silexhub/issues)，说明要完成的任务、可提供的输入和所需结果；使用合成样例，不在公开问题中上传凭据或私有数据。
+1. **了解方向。** 先看能力分类与工作流场景，判断是否与你的任务相关。
+2. **提出具体需求。** [创建能力需求 Issue](https://github.com/silexhub/silexhub/issues/new)，附一个小型合成样例。
+3. **关注公开更新。** Watch 本仓库，从可用状态一节查找经过验证的正式接入。
 
-正式接入文档将包含任务说明、输入输出、鉴权、消耗规则、失败处理与经过测试的快速开始。
+一份有用的需求，包含：
 
-## 公开仓库分工
+- 要完成什么任务，谁使用结果。
+- 能提供什么输入，希望输出什么格式。
+- 接在哪里：手动任务、Agent，还是已有应用。
+- 会改变方案的约束，例如更新频率或授权范围。
 
-| 仓库 | 用途 |
+公开 Issue 请使用合成样例，不上传访问凭据、客户记录或保密材料。
+
+## 一项正式接入应说明什么
+
+| 问题 | 对应资料 |
 | --- | --- |
-| [silexhub/silexhub](https://github.com/silexhub/silexhub) | 官方开发者入口：产品介绍及已发布的接入资料。 |
-| [silexhub/.github](https://github.com/silexhub/.github) | SilexHub组织首页介绍的来源。 |
+| 能做什么？ | 具体任务、适用范围和限制 |
+| 发什么、收什么？ | 必需输入、输出格式和完整样例 |
+| 怎么接入？ | 正式支持的访问方式和鉴权步骤 |
+| 怎么计算使用？ | 适用的计量单位、限制和发布时的价格 |
+| 失败怎么办？ | 错误行为、重试办法和结果领取方式 |
+| 能试一下吗？ | 对应正式接入的实测快速开始 |
 
-公开资料从同一份源稿维护并发布。文档修正和接入问题统一在[开发者主仓创建Issue](https://github.com/silexhub/silexhub/issues)。
+## 常见问题
 
-## 仓库范围
+<details>
+<summary><strong>SilexHub 是工具、数据集，还是平台？</strong></summary>
 
-本仓库只包含明确对外发布的开发者资料。托管应用、服务实现、支付系统和私有数据集由独立的内部工程维护。
+SilexHub 是我们自营工具、数据和软件连接的产品品牌。当前模式是提供自己建设与维护的能力，暂不涉及第三方卖家入驻。
+
+</details>
+
+<details>
+<summary><strong>现在能通过 MCP 连接 Agent 吗？</strong></summary>
+
+公开 MCP 服务尚未发布。正式接入可用时，这里会提供支持的客户端和经过验证的配置。
+
+</details>
+
+<details>
+<summary><strong>克隆仓库后可以自己部署网站吗？</strong></summary>
+
+本仓库是公开开发者入口，包含介绍资料和批准公开的品牌素材，不包含托管应用源码或可自行部署的服务发行版。
+
+</details>
+
+<details>
+<summary><strong>在哪里提问、建议或修正文档？</strong></summary>
+
+在 [GitHub Issues](https://github.com/silexhub/silexhub/issues) 提出公开产品问题、能力需求和文档反馈。文档修正也可以通过 Pull Request 提交。
+
+</details>
+
+## 官方入口
+
+| 入口 | 用途 |
+| --- | --- |
+| [SilexHub 组织](https://github.com/silexhub) | 官方 GitHub 主页与公开仓库导航 |
+| [开发者主仓](https://github.com/silexhub/silexhub) | 产品介绍与已发布接入资料 |
+| [English](README.md) | 英文介绍与可用状态 |
+| [产品域名](https://silexhub.com) | SilexHub 的产品网站地址 |
+
+---
+
+<div align="center">
+  <strong>SilexHub</strong><br />
+  工具 · 数据 · 软件连接<br />
+  <a href="#silexhub">回到顶部 ↑</a>
+</div>

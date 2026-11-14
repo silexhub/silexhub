@@ -1,50 +1,174 @@
-<img src="assets/symbol.svg" width="64" height="64" alt="SilexHub logo" />
+<div align="center">
+  <a href="https://github.com/silexhub">
+    <img src="assets/symbol.svg" width="88" height="88" alt="SilexHub" />
+  </a>
+  <h1>SilexHub</h1>
+  <p><strong>Tools, data, and software connections for AI agents.</strong></p>
+  <p>Give your agent a useful capability. Get a result you can use.</p>
+  <p>
+    <a href="https://silexhub.com">Website</a> ·
+    <a href="#capabilities">Capabilities</a> ·
+    <a href="#getting-started">Get started</a> ·
+    <a href="https://github.com/silexhub/silexhub/issues">Request a capability</a> ·
+    <a href="README.zh-CN.md">简体中文</a>
+  </p>
+  <p>
+    <a href="#availability"><img src="https://img.shields.io/badge/Stage-In_development-E65B31?style=flat-square" alt="Stage: in development" /></a>
+    <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/Readme-English_%2F_中文-555?style=flat-square" alt="Readme: English and Chinese" /></a>
+  </p>
+</div>
 
-# SilexHub
+---
 
-**Tools, data, and software connections for AI agents.**
+SilexHub is building a home for practical capabilities that people and AI agents can use in their workflows: **run a tool, work with data, or connect to software**.
 
-[简体中文](README.zh-CN.md) · [GitHub organization](https://github.com/silexhub) · [Product domain](https://silexhub.com)
+A useful agent needs more than a model. It needs the right information, a way to act, and an output that fits the next step. SilexHub's focus is the task between those steps: clear inputs, a defined scope, and a usable result.
 
-SilexHub is building a way for people and AI agents to use external capabilities in real workflows: run a task, retrieve structured information, or connect to software with a clear input and a useful result.
+This is the **official SilexHub developer hub**. Start here for the product overview, availability, and published integration resources.
 
-This is the official SilexHub developer hub. It brings together our public product information and, as they become available, integration documentation and runnable examples.
+## Why SilexHub?
 
-## What we're building
+- **Start with the job.** Find a capability by the task it helps complete and the result it delivers.
+- **Know what goes in and comes out.** Understand the required input, output format, scope, and limits before using a capability.
+- **Fit the workflow.** A downloadable asset, a tool call, and a software connection solve different jobs. The delivery format should follow the task.
+- **Keep people in control.** People choose what to use and authorize access; agents use capabilities within that scope.
 
-| Area | Intended use |
+These are the principles guiding the product. The availability table below distinguishes the public materials available today from integrations still in development.
+
+## Capabilities
+
+<table>
+  <tr>
+    <th align="left">Tools</th>
+    <th align="left">Data</th>
+    <th align="left">Software connections</th>
+  </tr>
+  <tr>
+    <td>Turn a defined input into a useful result: transform, check, compare, or produce an artifact.</td>
+    <td>Bring structured information, datasets, and knowledge assets into a task.</td>
+    <td>Use authorized software actions as part of a larger workflow.</td>
+  </tr>
+  <tr>
+    <td><strong>Focus:</strong> the task and its output.</td>
+    <td><strong>Focus:</strong> source, scope, format, and version.</td>
+    <td><strong>Focus:</strong> permission, action, and result.</td>
+  </tr>
+</table>
+
+Depending on the capability, delivery may be a file, a structured result, a reusable workflow, or an integration. Supported formats and access methods will be documented with each release.
+
+## What could you build?
+
+These scenarios illustrate the product direction; they are **not a released product catalog**.
+
+| Workflow | Input you bring | Result you need |
+| --- | --- | --- |
+| Prepare information for an agent | Source material and a target structure | A structured artifact ready for the next step |
+| Check and compare business information | Records, fields, and comparison rules | A clear comparison with differences to review |
+| Add domain context to a task | A question and a defined information scope | Relevant data or knowledge with its source and version |
+| Carry a result into another tool | An approved action and the required fields | A software action with a result you can inspect |
+
+Have a specific job in mind? [Describe the workflow](https://github.com/silexhub/silexhub/issues/new) with the input, desired output, and where it should fit. Small, concrete tasks help us decide what to build first.
+
+## How it fits together
+
+```mermaid
+flowchart LR
+    A[Choose a task] --> B[Review inputs and output]
+    B --> C[Authorize its scope]
+    C --> D[Person or agent uses the capability]
+    D --> E[Use the result in your workflow]
+```
+
+| For people | For agents and developers |
 | --- | --- |
-| Tools | Complete a defined task with explicit inputs and outputs. |
-| Data | Retrieve useful structured information and versioned data assets. |
-| Software connections | Bring authorized software capabilities into an agent workflow. |
+| Discover capabilities, review examples, choose access, and retrieve results. | Understand the contract, supply the input, and consume the result through a supported integration. |
 
-These describe the product direction. Each released capability will have its own availability, input/output contract and usage instructions.
+SilexHub is being designed around this shared flow. Each capability's documentation will explain its access, usage rules, and failure behavior.
 
-## Current availability
+## Availability
 
-**Early development.** This repository currently contains the public product overview. Public API and MCP access, runnable integrations, and production availability have not been released here yet. We will link each supported integration from this README when it is ready.
+| Resource | Status |
+| --- | --- |
+| Product overview and English / Chinese README | Available in this repository |
+| Public questions and capability requests | [GitHub Issues](https://github.com/silexhub/silexhub/issues) |
+| Production capability catalog | Not released |
+| Public API, MCP endpoint, or installable SDK | Not released |
+| Runnable integration quick starts | To be published with the corresponding integration |
 
-Our product domain is [silexhub.com](https://silexhub.com). Until the public service launches, use this repository for announcements and public product information.
+**SilexHub is in early development.** The product domain is [silexhub.com](https://silexhub.com); public service availability will be announced here. There is no supported installation command or API endpoint to copy from this repository yet.
 
 ## Getting started
 
-- **Explore the product:** start with the overview and capability areas above.
-- **Follow releases:** watch this repository for published integrations and release notes.
-- **Discuss a use case:** [open an issue](https://github.com/silexhub/silexhub/issues) describing the task, the input you can provide, and the output you need. Use synthetic examples and keep credentials and private data out of public issues.
+1. **Explore the direction.** Read the capability areas and workflow scenarios above.
+2. **Tell us the job.** [Open a capability request](https://github.com/silexhub/silexhub/issues/new) with a concrete task and a small synthetic example.
+3. **Follow published updates.** Watch this repository and return to the availability section for verified integration links.
 
-## What a released integration will include
+A useful request includes:
 
-A clear task description, supported inputs, an example output, authentication instructions, usage or credit rules, failure behavior and a tested quick start.
+- The task you want to complete and who uses the result.
+- The input you can provide and the output format you need.
+- Where the capability should fit: a manual task, an agent, or an existing application.
+- Constraints that change the solution, such as update frequency or required permissions.
 
-## Public repositories
+Use synthetic examples in public issues. Keep access credentials, customer records, and confidential material out of them.
 
-| Repository | Purpose |
+## What to expect from an integration
+
+Before a capability is presented here as usable, its documentation should answer:
+
+| Question | Documentation |
 | --- | --- |
-| [silexhub/silexhub](https://github.com/silexhub/silexhub) | Official developer hub: product information and published integrations. |
-| [silexhub/.github](https://github.com/silexhub/.github) | Source of the SilexHub organization profile. |
+| What does it do? | A concrete task, supported scope, and limitations |
+| What do I send and receive? | Required inputs, output format, and a worked example |
+| How do I connect? | The supported access method and authentication steps |
+| What does usage mean? | The applicable usage unit, limits, and pricing when offered |
+| What if it fails? | Error behavior, retry guidance, and result retrieval |
+| Can I try it? | A tested quick start for the released integration |
 
-Public documentation is maintained from one source and published to these repositories. For a correction or an integration question, [open an issue in the developer hub](https://github.com/silexhub/silexhub/issues).
+## Frequently asked questions
 
-## About this repository
+<details>
+<summary><strong>Is SilexHub a tool, a dataset, or a marketplace?</strong></summary>
 
-This repository contains the materials explicitly published for SilexHub's developer community. The hosted application, service implementation, payment system and private datasets are maintained separately.
+SilexHub is the product brand for capabilities we build and provide: tools, data, and software connections. The current model is a first-party offering; third-party seller onboarding is not part of the current product.
+
+</details>
+
+<details>
+<summary><strong>Can I connect an agent through MCP today?</strong></summary>
+
+A public MCP service has not been released. Supported clients and tested configuration will be linked here when an integration is available.
+
+</details>
+
+<details>
+<summary><strong>Can I clone this repository to self-host the application?</strong></summary>
+
+This repository is the public developer hub and contains documentation and approved brand assets. It does not contain the hosted application or a self-hostable service distribution.
+
+</details>
+
+<details>
+<summary><strong>Where should I ask a question or suggest a correction?</strong></summary>
+
+Use [GitHub Issues](https://github.com/silexhub/silexhub/issues) for public product questions, capability requests, and documentation feedback. Documentation corrections can also be proposed as a pull request.
+
+</details>
+
+## Around SilexHub
+
+| Link | Purpose |
+| --- | --- |
+| [SilexHub organization](https://github.com/silexhub) | Official GitHub presence and public repository navigation |
+| [Developer hub](https://github.com/silexhub/silexhub) | Product information and published integration resources |
+| [简体中文](README.zh-CN.md) | Chinese product overview and availability |
+| [Product domain](https://silexhub.com) | SilexHub's product website address |
+
+---
+
+<div align="center">
+  <strong>SilexHub</strong><br />
+  Tools. Data. Software connections.<br />
+  <a href="#silexhub">Back to top ↑</a>
+</div>
