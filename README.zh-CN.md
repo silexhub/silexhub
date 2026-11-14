@@ -7,6 +7,8 @@
   <p>让 Agent 用上合适的能力，交付你能用的结果。</p>
   <p>
     <a href="https://silexhub.com">产品网站</a> ·
+    <a href="https://github.com/silexhub/docs">文档</a> ·
+    <a href="https://github.com/silexhub/mcp-server">MCP接入</a> ·
     <a href="#能力方向">能力方向</a> ·
     <a href="#从哪里开始">从这里开始</a> ·
     <a href="https://github.com/silexhub/silexhub/issues">提出能力需求</a> ·
@@ -91,6 +93,7 @@ SilexHub 正围绕这条共同链路设计。每项能力的接入资料会说�
 | 内容 | 状态 |
 | --- | --- |
 | 产品介绍与中英文 README | 已在本仓库公开 |
+| 产品文档与MCP接入资料 | [文档仓](https://github.com/silexhub/docs) · [MCP仓](https://github.com/silexhub/mcp-server) |
 | 公开提问与能力需求 | [GitHub Issues](https://github.com/silexhub/silexhub/issues) |
 | 正式能力目录 | 尚未发布 |
 | 公开 API、MCP 端点、可安装 SDK | 尚未发布 |
@@ -160,6 +163,8 @@ SilexHub 是我们自营工具、数据和软件连接的产品品牌。当前�
 | --- | --- |
 | [SilexHub 组织](https://github.com/silexhub) | 官方 GitHub 主页与公开仓库导航 |
 | [开发者主仓](https://github.com/silexhub/silexhub) | 产品介绍与已发布接入资料 |
+| [产品文档](https://github.com/silexhub/docs) | 入门、概念、工作流与可用状态 |
+| [MCP接入](https://github.com/silexhub/mcp-server) | 连接指南、能力约定与发布条件 |
 | [English](README.md) | 英文介绍与可用状态 |
 | [产品域名](https://silexhub.com) | SilexHub 的产品网站地址 |
 

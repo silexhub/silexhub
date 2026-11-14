@@ -7,6 +7,8 @@
   <p>Give your agent a useful capability. Get a result you can use.</p>
   <p>
     <a href="https://silexhub.com">Website</a> ·
+    <a href="https://github.com/silexhub/docs">Docs</a> ·
+    <a href="https://github.com/silexhub/mcp-server">MCP</a> ·
     <a href="#capabilities">Capabilities</a> ·
     <a href="#getting-started">Get started</a> ·
     <a href="https://github.com/silexhub/silexhub/issues">Request a capability</a> ·
@@ -91,6 +93,7 @@ SilexHub is being designed around this shared flow. Each capability's documentat
 | Resource | Status |
 | --- | --- |
 | Product overview and English / Chinese README | Available in this repository |
+| Product documentation and MCP integration materials | [Docs](https://github.com/silexhub/docs) · [MCP hub](https://github.com/silexhub/mcp-server) |
 | Public questions and capability requests | [GitHub Issues](https://github.com/silexhub/silexhub/issues) |
 | Production capability catalog | Not released |
 | Public API, MCP endpoint, or installable SDK | Not released |
@@ -162,6 +165,8 @@ Use [GitHub Issues](https://github.com/silexhub/silexhub/issues) for public prod
 | --- | --- |
 | [SilexHub organization](https://github.com/silexhub) | Official GitHub presence and public repository navigation |
 | [Developer hub](https://github.com/silexhub/silexhub) | Product information and published integration resources |
+| [Documentation](https://github.com/silexhub/docs) | Getting started, concepts, workflows, and availability |
+| [MCP integration](https://github.com/silexhub/mcp-server) | Connection guidance, capability contracts, and release requirements |
 | [简体中文](README.zh-CN.md) | Chinese product overview and availability |
 | [Product domain](https://silexhub.com) | SilexHub's product website address |
 
