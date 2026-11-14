@@ -34,6 +34,15 @@ SilexHub 正在构建人和 AI Agent 可以用于实际工作流的外部能力�
 
 正式接入文档将包含任务说明、输入输出、鉴权、消耗规则、失败处理与经过测试的快速开始。
 
+## 公开仓库分工
+
+| 仓库 | 用途 |
+| --- | --- |
+| [silexhub/silexhub](https://github.com/silexhub/silexhub) | 官方开发者入口：产品介绍及已发布的接入资料。 |
+| [silexhub/.github](https://github.com/silexhub/.github) | SilexHub组织首页介绍的来源。 |
+
+公开资料从同一份源稿维护并发布。文档修正和接入问题统一在[开发者主仓创建Issue](https://github.com/silexhub/silexhub/issues)。
+
 ## 仓库范围
 
 本仓库只包含明确对外发布的开发者资料。托管应用、服务实现、支付系统和私有数据集由独立的内部工程维护。

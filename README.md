@@ -36,6 +36,15 @@ Our product domain is [silexhub.com](https://silexhub.com). Until the public ser
 
 A clear task description, supported inputs, an example output, authentication instructions, usage or credit rules, failure behavior and a tested quick start.
 
+## Public repositories
+
+| Repository | Purpose |
+| --- | --- |
+| [silexhub/silexhub](https://github.com/silexhub/silexhub) | Official developer hub: product information and published integrations. |
+| [silexhub/.github](https://github.com/silexhub/.github) | Source of the SilexHub organization profile. |
+
+Public documentation is maintained from one source and published to these repositories. For a correction or an integration question, [open an issue in the developer hub](https://github.com/silexhub/silexhub/issues).
+
 ## About this repository
 
 This repository contains the materials explicitly published for SilexHub's developer community. The hosted application, service implementation, payment system and private datasets are maintained separately.
