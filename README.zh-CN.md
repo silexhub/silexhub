@@ -92,18 +92,22 @@ SilexHub 正围绕这条共同链路设计。每项能力的接入资料会说�
 
 | 内容 | 状态 |
 | --- | --- |
+| 中英文网站 | [中文](https://silexhub.com) · [English](https://silexhub.com/en) |
+| 实践文章与使用指南 | [文章](https://silexhub.com/articles) · [指南](https://silexhub.com/docs) |
+| 只读工作台演示 | [免登录体验](https://silexhub.com/demo)，使用明确标注的合成样例 |
+| 账户登录 | [GitHub 与 Google](https://silexhub.com/login) |
 | 产品介绍与中英文 README | 已在本仓库公开 |
 | 产品文档与MCP接入资料 | [文档仓](https://github.com/silexhub/docs) · [MCP仓](https://github.com/silexhub/mcp-server) |
 | 公开提问与能力需求 | [GitHub Issues](https://github.com/silexhub/silexhub/issues) |
-| 正式能力目录 | 尚未发布 |
+| 收费能力目录 | 尚未发布 |
 | 公开 API、MCP 端点、可安装 SDK | 尚未发布 |
 | 可运行的快速开始 | 随对应接入正式发布 |
 
-**SilexHub 处于开发早期。** 产品域名为 [silexhub.com](https://silexhub.com)，公开服务的可用信息会在这里公布。当前仓库尚无可以直接复制使用的安装命令或 API 端点。
+**网站与只读演示已开放。** 可以浏览任务样例、实践文章和使用指南，或使用 GitHub、Google 登录。收费能力、公开 API、MCP 服务与可安装 SDK 尚未发布。
 
 ## 从哪里开始
 
-1. **了解方向。** 先看能力分类与工作流场景，判断是否与你的任务相关。
+1. **先看一份样例。** 打开[只读演示](https://silexhub.com/demo)或[使用指南](https://silexhub.com/docs)，再按能力分类与工作流场景判断是否适合自己的任务。
 2. **提出具体需求。** [创建能力需求 Issue](https://github.com/silexhub/silexhub/issues/new)，附一个小型合成样例。
 3. **关注公开更新。** Watch 本仓库，从可用状态一节查找经过验证的正式接入。
 

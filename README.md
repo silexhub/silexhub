@@ -92,18 +92,22 @@ SilexHub is being designed around this shared flow. Each capability's documentat
 
 | Resource | Status |
 | --- | --- |
+| Website in English and Chinese | [English](https://silexhub.com/en) · [中文](https://silexhub.com) |
+| Articles and product guides | [Articles](https://silexhub.com/en/articles) · [Guides](https://silexhub.com/en/docs) |
+| Read-only workspace demo | [Try the demo](https://silexhub.com/en/demo) with synthetic examples; no account required |
+| Account sign-in | [GitHub and Google](https://silexhub.com/en/login) |
 | Product overview and English / Chinese README | Available in this repository |
 | Product documentation and MCP integration materials | [Docs](https://github.com/silexhub/docs) · [MCP hub](https://github.com/silexhub/mcp-server) |
 | Public questions and capability requests | [GitHub Issues](https://github.com/silexhub/silexhub/issues) |
-| Production capability catalog | Not released |
+| Paid capability catalog | Not released |
 | Public API, MCP endpoint, or installable SDK | Not released |
 | Runnable integration quick starts | To be published with the corresponding integration |
 
-**SilexHub is in early development.** The product domain is [silexhub.com](https://silexhub.com); public service availability will be announced here. There is no supported installation command or API endpoint to copy from this repository yet.
+**The website and read-only demo are available.** Explore the samples, articles and product guides, or sign in with GitHub or Google. Paid capabilities, the public API, MCP service and installable SDK have not been released.
 
 ## Getting started
 
-1. **Explore the direction.** Read the capability areas and workflow scenarios above.
+1. **Explore a sample.** Open the [read-only demo](https://silexhub.com/en/demo) or [product guides](https://silexhub.com/en/docs), then review the capability areas and workflow scenarios above.
 2. **Tell us the job.** [Open a capability request](https://github.com/silexhub/silexhub/issues/new) with a concrete task and a small synthetic example.
 3. **Follow published updates.** Watch this repository and return to the availability section for verified integration links.
 
