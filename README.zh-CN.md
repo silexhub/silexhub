@@ -95,7 +95,7 @@ SilexHub 正围绕这条共同链路设计。每项能力的接入资料会说�
 | 中英文网站 | [中文](https://silexhub.com) · [English](https://silexhub.com/en) |
 | 实践文章与使用指南 | [文章](https://silexhub.com/articles) · [指南](https://silexhub.com/docs) |
 | 只读工作台演示 | [免登录体验](https://silexhub.com/demo)，使用明确标注的合成样例 |
-| 账户登录 | [GitHub 与 Google](https://silexhub.com/login) |
+| 账户与工作台 | 正式站开发中 |
 | 产品介绍与中英文 README | 已在本仓库公开 |
 | 产品文档与MCP接入资料 | [文档仓](https://github.com/silexhub/docs) · [MCP仓](https://github.com/silexhub/mcp-server) |
 | 公开提问与能力需求 | [GitHub Issues](https://github.com/silexhub/silexhub/issues) |
@@ -103,7 +103,7 @@ SilexHub 正围绕这条共同链路设计。每项能力的接入资料会说�
 | 公开 API、MCP 端点、可安装 SDK | 尚未发布 |
 | 可运行的快速开始 | 随对应接入正式发布 |
 
-**网站与只读演示已开放。** 可以浏览任务样例、实践文章和使用指南，或使用 GitHub、Google 登录。收费能力、公开 API、MCP 服务与可安装 SDK 尚未发布。
+**网站与只读演示已开放。** 访客可直接浏览公开样例、实践文章和使用指南。结账、收费能力、公开 API、MCP 服务与可安装 SDK 仍在开发。
 
 ## 从哪里开始
 

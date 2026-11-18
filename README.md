@@ -95,7 +95,7 @@ SilexHub is being designed around this shared flow. Each capability's documentat
 | Website in English and Chinese | [English](https://silexhub.com/en) · [中文](https://silexhub.com) |
 | Articles and product guides | [Articles](https://silexhub.com/en/articles) · [Guides](https://silexhub.com/en/docs) |
 | Read-only workspace demo | [Try the demo](https://silexhub.com/en/demo) with synthetic examples; no account required |
-| Account sign-in | [GitHub and Google](https://silexhub.com/en/login) |
+| Accounts and workspace | In development on the public site |
 | Product overview and English / Chinese README | Available in this repository |
 | Product documentation and MCP integration materials | [Docs](https://github.com/silexhub/docs) · [MCP hub](https://github.com/silexhub/mcp-server) |
 | Public questions and capability requests | [GitHub Issues](https://github.com/silexhub/silexhub/issues) |
@@ -103,7 +103,7 @@ SilexHub is being designed around this shared flow. Each capability's documentat
 | Public API, MCP endpoint, or installable SDK | Not released |
 | Runnable integration quick starts | To be published with the corresponding integration |
 
-**The website and read-only demo are available.** Explore the samples, articles and product guides, or sign in with GitHub or Google. Paid capabilities, the public API, MCP service and installable SDK have not been released.
+**The website and read-only demo are available.** Explore the samples, articles and product guides without an account. Checkout, paid capabilities, the public API, MCP service and installable SDK remain in development.
 
 ## Getting started
 
