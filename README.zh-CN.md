@@ -3,8 +3,8 @@
     <img src="assets/symbol.svg" width="88" height="88" alt="SilexHub" />
   </a>
   <h1>SilexHub</h1>
-  <p><strong>给 AI Agent 提供工具、数据和软件连接。</strong></p>
-  <p>让 Agent 用上合适的能力，交付你能用的结果。</p>
+  <p><strong>给 AI 用的专业工具与数据</strong></p>
+  <p>把可追溯的专业数据、行业知识和工作工具带进你常用的 AI。</p>
   <p>
     <a href="https://silexhub.com">产品网站</a> ·
     <a href="https://github.com/silexhub/docs">文档</a> ·
@@ -22,7 +22,7 @@
 
 ---
 
-SilexHub 正在把人和 AI Agent 工作流中需要的实用能力放到同一个入口：**运行工具、使用数据、连接软件**。
+首品预览是美股半导体地区收入。可查看[英伟达原披露、重列及 SEC 年报原表](https://silexhub-prelaunch.1255829396.workers.dev/)。
 
 一个能做事的 Agent，除了模型，还需要合适的信息、执行动作的途径，以及能交给下一步的输出。SilexHub 关注的就是这些具体任务：输入是什么、做到哪里、最后交付什么，都应清楚。
 
